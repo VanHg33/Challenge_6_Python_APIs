@@ -63,18 +63,19 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
-  ************- A max temperature lower than 27 degrees but higher than 21
-  ************- Wind speed less than 4.5 m/s
-  ************- Zero cloudiness
+
+  ************ A max temperature lower than 27 degrees but higher than 21*********
+  ************ Wind speed less than 4.5 m/s************************
+  ************ Zero cloudiness******************
 
     ***NOTE***
     Feel free to adjust your specifications, but make sure to set a reasonable limit to the number of rows returned by your API requests.
 
-3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+4. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 
-4. For each city, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates.
+5. For each city, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates.
 
-5. Add the hotel name and the country as additional information in the hover message for each city in the map as in the following image:
+6. Add the hotel name and the country as additional information in the hover message for each city in the map as in the following image:
 
 
 
